@@ -11,6 +11,7 @@ client/*.mobileprovision
 client/*.orig.*
 client/web-build/
 client/.netlify
+.netlify
 
 # Server
 server/node_modules/**/*
