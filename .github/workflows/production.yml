@@ -26,8 +26,7 @@ jobs:
       - name: Deploy to netlify
         uses: netlify/actions/cli@master
         with:
-          entryPoint: ./client
-          args: deploy --dir=web-build --prod
+          args: deploy --dir=../../client/web-build --prod
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
