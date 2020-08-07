@@ -27,7 +27,7 @@ jobs:
         run: npm install netlify-cli -g
 
       - name: Deploy the website
-        run: netlify deploy --prod --dir=web-build --site=${{ secrets.NETLIFY_SITE_ID }} --auth=${{ secrets.NETLIFY_AUTH_TOKEN }}
+        run: netlify deploy --prod --dir=./client/web-build --site=${{ secrets.NETLIFY_SITE_ID }} --auth=${{ secrets.NETLIFY_AUTH_TOKEN }}
 
       # - name: Deploy to netlify
       #   uses: netlify/actions/cli@master
