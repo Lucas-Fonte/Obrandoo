@@ -9,7 +9,6 @@ client/*.p12
 client/*.key
 client/*.mobileprovision
 client/*.orig.*
-client/web-build/
 client/.netlify
 .netlify
 
