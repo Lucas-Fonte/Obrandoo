@@ -10,6 +10,7 @@ client/*.key
 client/*.mobileprovision
 client/*.orig.*
 client/web-build/
+client/.netlify
 
 # Server
 server/node_modules/**/*
