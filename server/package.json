@@ -8,7 +8,7 @@
     "dev": "ts-node-dev src/server.ts",
     "ts:build": "tsc",
     "build": "npm run ts:build",
-    "prod:serve": "node dist/server.js",
+    "prod:serve": "node src/server.js",
     "start": "npm run build && npm run prod:serve"
   },
   "devDependencies": {
